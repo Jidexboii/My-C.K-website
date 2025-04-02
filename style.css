@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+#section-a {
+    background-color: rgb(255, 255, 255);
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+
+
+}
+
+.part-1 {
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.part-2 {
+    display: flex;
+    gap: 2vw;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
+
+}
+
+.part-3 {
+    display: flex;
+    gap: 2vw;
+
+}
+
+#section-b {
+    height: 7vh;
+
+}
+
+.part-4 {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+
+
+}
+
+#section-b .part-4 .part-4i {
+    border-right: 1px solid black;
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#section-b .part-4 .part-4ii {
+    border-right: 1px solid black;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+
+}
+
+.part-4 a {
+    color: black;
+    font-size: 15px;
+
+}
+
+#section-b .part-5 {
+    text-align: end;
+    font-size: 10px;
+    margin-right: 10px;
+    color: rgb(135, 136, 138);
+    margin-bottom: 0%;
+}
+
+#back-img {
+    background-image: url(img/HP_BB.webp);
+    height: 100vh;
+    width: auto;
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#back-img .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    height: 27%;
+    width: 25%;
+    font-family: sans-serif;
+    
+
+}
+
+.size{
+    font-size: 30px;
+    font-weight: 700;
+}
+.size-2{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.link{
+display: flex;
+gap: 10px;
+font-size: 14px;
+}
+.link a{
+    transition: 0.3s ease-in-out;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1.5px solid rgb(70, 69, 69);
+}
+.link a:hover{
+    border-color: white;
+}
+
+#section-c{
+    height: 100vh;
+    background-color: blue;
+}
