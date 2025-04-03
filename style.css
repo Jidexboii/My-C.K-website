@@ -15,6 +15,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 5vh;
+    top: 0;
+    position: sticky;
 }
 
 .part-1 {
@@ -197,12 +199,12 @@ body {
     border-color: white;
 }
 
-#section-d{
+#section-d {
     height: 20vh;
 
 }
 
-.part-6{
+.part-6 {
     height: 10vh;
     width: 100%;
     display: flex;
@@ -212,34 +214,55 @@ body {
     padding-top: 30px;
 }
 
-.part-6 p{
+.part-6 p {
     transition: .3s;
     border-right: 1px solid rgb(129, 124, 124);
     height: 10vmin;
     width: 20%;
     align-content: center;
     text-align: center;
-    font:1.5em  Arial, Helvetica, sans-serif;
-    font-weight:500;
+    font: 1.5em Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 
-.part-6 p:hover{
-    border-right: 6px solid rgb(75, 75, 75);  
+.part-6 p:hover {
+    border-right: 6px solid rgb(75, 75, 75);
     color: rgb(243, 240, 240);
     background-color: rgb(5, 5, 5);
 }
 
-#section-e{
-    height: 60vh;
-    background-color:black;
+#section-e {
+    background-color: black;
     display: flex;
     justify-content: center;
     gap: 10vw;
     padding: 5vw;
 }
-#section-e .word{
+
+#section-e .word {
+    color: rgb(143, 141, 141);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+
+}
+
+#section-e .word p {
+    transition: .3s;
+    padding: 8px;
+}
+
+#section-e .word p:hover {
+    background-color: rgb(59, 59, 59);
     color: white;
 }
 
-
+#section-e .hed {
+    margin-bottom: 20px;
+    font-size: larger;
+    color: white;
+}
