@@ -17,6 +17,7 @@ body {
     margin-top: 5vh;
     top: 0;
     position: sticky;
+    z-index: 999;
 }
 
 .part-1 {
@@ -265,4 +266,28 @@ body {
     margin-bottom: 20px;
     font-size: larger;
     color: white;
+}
+
+.footer-icon{
+    font-size: x-large;
+    display: flex;
+    gap:20px ;
+}
+#one:hover{
+    color: rgb(221, 96, 96);
+}
+#two:hover{
+    color: rgb(95, 91, 91);
+}
+#three:hover{
+    color: rgb(216, 7, 87);
+}
+#four:hover{
+    color: blue;
+}
+#five:hover{
+    color: red;
+}
+#six:hover{
+    color: rgba(233, 15, 15, 0.849);
 }
