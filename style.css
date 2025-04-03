@@ -199,22 +199,47 @@ body {
 
 #section-d{
     height: 20vh;
-    background-color: rgba(219, 209, 209, 0.445);
+
 }
 
 .part-6{
     height: 10vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 10vh;
+    padding-top: 30px;
 }
 
 .part-6 p{
+    transition: .3s;
     border-right: 1px solid rgb(129, 124, 124);
-    padding-right:5vw ;
-    font:2em  Arial, Helvetica, sans-serif;
-    background-color: rgba(197, 108, 0, 0.178);
+    height: 10vmin;
+    width: 20%;
+    align-content: center;
+    text-align: center;
+    font:1.5em  Arial, Helvetica, sans-serif;
     font-weight:500;
 }
+
+
+.part-6 p:hover{
+    border-right: 6px solid rgb(75, 75, 75);  
+    color: rgb(243, 240, 240);
+    background-color: rgb(5, 5, 5);
+}
+
+#section-e{
+    height: 60vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding: 5vw;
+}
+#section-e .word{
+    color: white;
+}
+
 
