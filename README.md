@@ -1,55 +1,31 @@
-# Olajide John
+# CALVIN KLEIN WEBSITE
 
-# _short discription_
+## By Olajide John
 
+## _short discription_
+The Calvin Klein website is the official online store for the iconic fashion brand, offering a wide range of clothing, underwear,and accessories for men and women.
 
 ## Table of Contents
-
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Description](#description)
-- [How to play](#play)
-- [Features](#features)
+- [Technologies](#technologies )
 - [License](#license)
 - [Contact](#contact)
 
-
-
-
-
-
 ## Technologies
-```bash
 * GIT
 * CSS
 * HTML
-* FONT-AWESOME
-*
-
-```
-
-## Description
-
- __
-
-
-
-## Installation
-
+* FONT AWESOME
+* GIT
 
 ## Known Bugs
-* put your web site problem yeah
+* It's not Responsive to all screen devices
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ MIT 
 
 ## Contact
+* Phone no : +234 (000) 000 0000
 
-```bash
-
-* Phone no : 
-
-     *   GMAIL    *
-```
- example@gmail.com
+ *  GMAIL*
+ olajidejohn022@gmail.com
+ 
